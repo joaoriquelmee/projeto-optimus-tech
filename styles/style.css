@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import url(reset.css);
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --cor-vermelho: #8E2424;
+    --cor-preto: #101828;
+    --cor-cinza: #667085;
+    --cor-branco: #FFFFFF;
+    --cor-header-titulo: #101828;
+    --cor-header-titulo-secundario: #8E2424;
+    --cor-header-texto: #667085;
+    --cor-da-borda: #EAECF0;
+    --cor-de-fundo-footer: #F9FAFB;
+    --cor-do-copyright: #98A2B3;
+    --fonte-inter: "Inter", sans-serif;
+}
+
+body {
+    color: var(--cor-de-fundo);
+}

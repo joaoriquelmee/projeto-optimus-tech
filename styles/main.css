@@ -1,0 +1,176 @@
+.metricas-container {
+    font-family: var(--fonte-inter);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 32px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+.metricas__titulo__principal {
+    color: var(--cor-vermelho);
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 12px;
+}
+
+.metricas__subtitulo {
+    color: var(--cor-preto);
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.metricas__texto {
+    color: var(--cor-cinza);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.vagas {
+    font-family: var(--fonte-inter);
+    color: var(--cor-preto);
+}
+
+.talentos__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 64px;
+}
+
+.vagas__subtitulo {
+    color: var(--cor-vermelho);
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.vagas__titulo__principal {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.vagas__texto {
+    font-size: 20px;
+    color: var(--cor-cinza);
+}
+
+.vagas__imagem__container {
+    display: flex;
+    justify-content: center;
+}
+
+.vagas__imagem {
+    width: 84%;
+}
+
+.vagas__abertas {
+    font-family: var(--fonte-inter);
+    color: var(--cor-preto);
+}
+
+.vagas__abertas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.categoria__vagas {
+    color: var(--cor-preto);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 64px auto 32px 540px;
+}
+
+.card__vagas {
+    border: 1px solid #EAECF0;
+    width: 768px;
+    height: 100px;
+    border-radius: 16px;
+    padding: 24px 24px 28px 24px;
+}
+
+.card__vagas__titulo {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cor-preto);
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    gap: 24px;
+}
+
+.informacoes span {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-cinza);
+}
+
+.depoimentos {
+    font-family: var(--fonte-inter);
+    color: var(--cor-preto);
+    background-color: rgba(195, 25, 25, 0.03);
+    border-radius: 16px;
+    margin: 96px auto;
+    width: 1216px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+}
+
+.depoimentos__container__textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 38px;
+}
+
+.depoimentos__texto {
+    color: var(--cor-vermelho);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.depoimentos__titulo {
+    color: var(--cor-preto);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -2%;
+    text-align: center;
+}
+
+.depoimentos__container__informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.depoimentos__nome {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.depoimentos__container__imagem {
+    margin-bottom: 16px;
+}
+
+.depoimentos__profissao {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--cor-cinza);
+}
